@@ -13,24 +13,24 @@ font-family: 'DM Sans',Helvetica,sans-serif !important;
 
 .center {text-align: center;}
 
-
+h1 {font-size: 6em !important;}
 /***********************************************************************************************************************************/
 /*                                     Start Banner on Main Catalog / Landing Page                                                 */
 /***********************************************************************************************************************************/
-.sj-page-catalog-root .ch-background{
+.ch-background{
   background-color: #3f59e4;
 /* remove this comment and uncomment the below two lines for an image background */
 /*  background-size: cover !important; */
 /*  background: url(IMAGE_URL_HERE) */
 }
-.sj-page-catalog-root .ch-wrapper{
+.ch-wrapper{
   margin: auto;
   padding: 50px;
   min-height: 275px;
   display: flex;
   flex-wrap: wrap;
 }
-.sj-page-catalog-root .ch-section{
+.ch-section{
   color: #ffffff;
   display: flex;
   width: 100%;
@@ -38,36 +38,36 @@ font-family: 'DM Sans',Helvetica,sans-serif !important;
   justify-content: center;
   align-items: center;
 }
-.sj-page-catalog-root .ch-title {
+.ch-title {
   font-size: 48px;
   font-weight: 500;
   width: 100%;
   margin-bottom: 20px;
  }
-.sj-page-catalog-root .ch-sub-title{
+.ch-sub-title{
   font-size: 18px;
   font-weight:300;
   width: 100%;
   margin-bottom: 50px;
 }
 @media only screen and (min-width: 1213px){
-  .sj-page-catalog-root .ch-wrapper{
+  .ch-wrapper{
     width: 1215px;
   }
-  .sj-page-catalog-root .ch-section{
+  .ch-section{
     width: 50%;
   }
-  .sj-page-catalog-root .ch-sub-title{
+  .ch-sub-title{
     margin-bottom: 0px;
   }
 }
 /* START Catalog/Series Header Forced to Full Width snippet. */
-.sj-page-catalog-root .catalog-center-width.one-col-full {
+.catalog-center-width.one-col-full {
     width: 100% !important;
     max-width: 100% !important;
     padding: 0;
   }
-    .sj-page-catalog-root .storefront .top-row {
+    .storefront .top-row {
     padding: 0;
   }
   /* END Catalog/Series Header Forced to Full Width snippet. */
@@ -78,7 +78,7 @@ font-family: 'DM Sans',Helvetica,sans-serif !important;
 
 
   /* remove the 6px of left padding that catalog-header normally has */
-  .sj-page-catalog-root .catalog-center-width .catalog-header {
+  .catalog-center-width .catalog-header {
   padding: 0;
   }
 
