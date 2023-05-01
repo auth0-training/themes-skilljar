@@ -1,0 +1,145 @@
+/***********************************************************************************************************************************/
+/*                                                        Import Font                                                              */
+/***********************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+/***********************************************************************************************************************************/
+/*                                                       Generic Setup                                                             */
+/***********************************************************************************************************************************/
+h1, h2, h3, h4, h5, h6, div, p, span, button, a, input, select, option, textarea {
+font-family: 'DM Sans',Helvetica,sans-serif !important;
+}
+
+.center {text-align: center;}
+
+
+/***********************************************************************************************************************************/
+/*                                     Start Banner on Main Catalog / Landing Page                                                 */
+/***********************************************************************************************************************************/
+.sj-page-catalog-root .ch-background{
+  background-color: #3f59e4;
+/* remove this comment and uncomment the below two lines for an image background */
+/*  background-size: cover !important; */
+/*  background: url(IMAGE_URL_HERE) */
+}
+.sj-page-catalog-root .ch-wrapper{
+  margin: auto;
+  padding: 50px;
+  min-height: 275px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sj-page-catalog-root .ch-section{
+  color: #ffffff;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sj-page-catalog-root .ch-title {
+  font-size: 48px;
+  font-weight: 500;
+  width: 100%;
+  margin-bottom: 20px;
+ }
+.sj-page-catalog-root .ch-sub-title{
+  font-size: 18px;
+  font-weight:300;
+  width: 100%;
+  margin-bottom: 50px;
+}
+@media only screen and (min-width: 1213px){
+  .sj-page-catalog-root .ch-wrapper{
+    width: 1215px;
+  }
+  .sj-page-catalog-root .ch-section{
+    width: 50%;
+  }
+  .sj-page-catalog-root .ch-sub-title{
+    margin-bottom: 0px;
+  }
+}
+/* START Catalog/Series Header Forced to Full Width snippet. */
+.sj-page-catalog-root .catalog-center-width.one-col-full {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0;
+  }
+    .sj-page-catalog-root .storefront .top-row {
+    padding: 0;
+  }
+  /* END Catalog/Series Header Forced to Full Width snippet. */
+
+/* END BANNER ON MAIN CATALOG/LANDING PAGE */
+
+
+  /* remove the 6px of left padding that catalog-header normally has */
+  .sj-page-catalog-root .catalog-center-width .catalog-header {
+  padding: 0;
+  }
+
+
+@media only screen and (min-width: 768px){
+#header .header-center-img {
+    max-height: 50px !important;
+}
+}
+
+  .disabled-link,
+  .disabled-link * {
+    color: #aaa !important;
+    pointer-events: none;
+  }
+
+.reviewHeader {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+padding:4rem;
+background-image: url(https://www.okta.com/_static/web/static/ec7f69afc4a8745535eb34a4ad6b18b9/a7433/Oktane20Promo_Background%25402x.webp);
+    }
+
+.reviewHeader:nth-child(1) {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.reviewHeader:nth-child(2) {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+:not(.search):not(.list-view) > #catalog-content a.coursebox-container.course .coursebox-image img {
+    max-height: auto !important; }
+.reviewHeader h1 { color: #fff; }
